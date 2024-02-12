@@ -247,6 +247,26 @@ championDropDownList.addEventListener("change" , (e)=>{
             break;
 
 
+        case  "toplane":
+            setChampionCards(champions.filter((champions)=> champions.roll == "Top Lane"));
+            break;
+
+        case "botlane":
+            setChampionCards(champions.filter((champions)=> champions.roll == "Bot Lane"));
+            break;
+
+        case "midlane":
+            setChampionCards(champions.filter((champions)=> champions.roll == "Mid Lane"));
+            break;
+        
+        case "jglane":
+            setChampionCards(champions.filter((champions)=> champions.roll == "Jungler"));
+            break;
+         
+        default :
+            setChampionCards();
+     
+
     }
 
 
