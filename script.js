@@ -217,7 +217,7 @@ const setChampionCards = (arr = champions) =>{
 
     championCards.innerHTML += arr.map(({roll, number , isCarry , nickname  , name ,id })=>{
     
-        `<div class="champion-card" id=${id}>
+       return `<div class="champion-card" id=${id}>
 
             <h2> ${name} ${isCarry ? "(Carry)" : "" } </h2>
             <p>Roll: ${roll}  </p>
@@ -225,7 +225,7 @@ const setChampionCards = (arr = champions) =>{
             <p>Nickname : ${ nickname ? nickname : "N/A"}</p>
         
         
-        <div>`
+        </div>`
 
     }).join("");
 
@@ -235,6 +235,19 @@ const setChampionCards = (arr = champions) =>{
 
 
 championDropDownList.addEventListener("change" , (e)=>{
+
+
+    championCards.innerHTML = "";
+
+    switch (e.target.value){
+
+
+        case "nickname": 
+            setChampionCards(champions.filter((champions)=>  champions.nickname !== null))
+            break;
+
+
+    }
 
 
 
