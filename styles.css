@@ -55,16 +55,110 @@ footer {
   margin: 1.2rem;
   width: 300px;
   border-radius: 15px;
+  color: #f5f6f7;
+  background-size: cover;
+  text-shadow: 4px 4px 8px #000; /* Dodaje crnu senku */
 }
 
 
 #jax {
-
     background-image: url(img/jax.jpg);
+  }
+  
+  #kalista {
+    background-image: url(img/kalista.jpg);
+  }
+  
+  #missfortune {
+    background-image: url(img/missfortune.jpg);
+  }
+  
+  #kayne {
+    background-image: url(img/kayne.jpg);
+  }
+  
+  #blitz {
+    background-image: url(img/blitz.JPG);
+  }
+  
+  #zed {
+    background-image: url(img/zed.jpg);
+  }
+  
+  #tresh {
+    background-image: url(img/thresh.jpg);
+  }
+  
+  #darius {
+    background-image: url(img/darius.jpg);
+  }
+  
+  #ezreal {
+    background-image: url(img/ezreal.jpg);
+  }
+  
+  #akali {
+    background-image: url(img/akali.jpg);
+  }
+  
+  #leesin {
+    background-image: url(img/leesin.jpg);
+  }
+  
+  #jinx {
+    background-image: url(img/jinx.jpg);
+  }
+  
+  #lucian {
+    background-image: url(img/lucian.JPG);
+  }
+  
+  #vayne {
+    background-image: url(img/vayne.jpg);
+  }
+  
+  #malzahar {
+    background-image: url(img/malzahaar.JPG);
+  }
+  
+  #irelia {
+    background-image: url(img/irelia.jpg);
+  }
+  
+  #garen {
+    background-image: url(img/garen.jpg);
+  }
+  
+  #nami {
+    background-image: url(img/nami.jpg);
+  }
+  
+  #aatrox {
+    background-image: url(img/aatrox.jpg);
+  }
+  
+  #cait {
+    background-image: url(img/cait.JPG);
+  }
+  
+  #katarina {
+    background-image: url(img/katarina.jpg);
+  }
+  
+  #riven {
+    background-image: url(img/riven.jpg);
     
+  }
+  
+
+
+
+
+.cards :hover {
+
+    transform: scale(1.1); 
 
 }
-
 
 @media (max-width: 768px) {
   .team-stats {
